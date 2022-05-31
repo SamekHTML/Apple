@@ -31,15 +31,15 @@
 }
 .menu .btn {
     height:20px;
-    width:50px;
+    width:36px;
   position: absolute;
-  right: 219px;
+  right: 209px;
   top:36px;
 }
 
 .menu img{
     height:15px;
-    width:15px;
+    width:22px;
 }
 
 /* NavBar end */
@@ -62,6 +62,11 @@
     font-style:italic;
     font-size:18px;
     }
+    .logo h3:hover{
+        color:#FF4F58FF;
+        font-family:monospace;
+    font-style:oblique;
+    }
     .img img{
         height:80px;
         width:69px;
@@ -78,15 +83,34 @@
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-style:italic;
         font-size:18px;
-    }
+       }
+       .img h3:hover{
+        color:#FF4F58FF;
+        font-family:monospace;
+          font-style:oblique;
+       }
     /* Image Finish */
 /* welcome to website start */
+.Website h2{
+    font-family:'Times New Roman', Times, serif;
+        font-style: italic;
+        bottom: 500px;
+        position: absolute;
+        left:550px;
+        font-weight: bolder;
+        }
+        .Website h2:hover{
+            font-style: oblique;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color:#8ABAD3FF;
+        }
+        .Website h3{
+            font-family:'Times New Roman', Times, serif;
+        font-style: italic;
+        }
     .welcome{
         margin-top:5%;
         margin-bottom:5%;
-    }
-    .Website {
-        
     }
     .Website h1{
         font-family:'Times New Roman', Times, serif;
@@ -179,6 +203,7 @@
         font-style: italic;
         color:rgb(60, 95, 233);
         font-weight: bold;
+        font-size: 19px;
      }
      .column2{
          width:25%;
@@ -205,5 +230,13 @@
         font-style: italic;
         font-size: 20px;
    }
-  
+   .thankyou h2{
+    font-family:'Trebuchet MS';
+    font-style: italic;
+    font-size: 30px;
+    color:rgb(60, 95, 233);
+      position:sticky;
+      margin-top: -2%;
+     }
+
    
